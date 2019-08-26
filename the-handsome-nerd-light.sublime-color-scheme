@@ -1,0 +1,296 @@
+{
+    "name": "The Handsome Nerd (Light)",
+    "author": "Jamal Alawes",
+    "website": "https://www.jamalalawes.dev",
+    "variables":
+    {
+        "black": "hsl(0, 0%, 0%)",
+        "white": "hsl(0, 0%, 100%)",
+
+        "gray1": "hsl(57,45%,98%)",
+        "gray2": "hsl(210, 38.5%, 94.9%)",
+        "gray3": "hsl(214, 31.8%, 91.4%)",
+        "gray4": "hsl(211, 25.3%, 83.7%)",
+        "gray5": "hsl(214, 20.3%, 69%)",
+        "gray6": "hsl(216, 15%, 51.6%)",
+        "gray7": "hsl(218, 16.9%, 34.9%)",
+        "gray8": "hsl(218, 23.1%, 22.9%)",
+        "gray9": "hsl(220, 25.7%, 13.7%)",
+
+        "red1": "hsl(0, 100%, 98%)",
+        "red2": "hsl(0, 95.1%, 92%)",
+        "red3": "hsl(0, 97.4%, 84.7%)",
+        "red4": "hsl(0, 95.3%, 74.7%)",
+        "red5": "hsl(0, 87.8%, 67.8%)",
+        "red6": "hsl(0, 76.3%, 57.1%)",
+        "red7": "hsl(0, 60.8%, 48%)",
+        "red8": "hsl(0, 55.8%, 39%)",
+        "red9": "hsl(0, 46.8%, 31%)",
+
+        "orange1": "hsl(40, 100%, 97.1%)",
+        "orange2": "hsl(39, 96.4%, 89%)",
+        "orange3": "hsl(38, 93.2%, 76.9%)",
+        "orange4": "hsl(33, 89.9%, 64.9%)",
+        "orange5": "hsl(27, 83.6%, 57.1%)",
+        "orange6": "hsl(24, 74.7%, 49.6%)",
+        "orange7": "hsl(20, 70.7%, 44.1%)",
+        "orange8": "hsl(16, 65.1%, 37.1%)",
+        "orange9": "hsl(14, 60.8%, 30%)",
+
+        "yellow1": "hsl(60, 100%, 97.1%)",
+        "yellow2": "hsl(58, 96.9%, 87.3%)",
+        "yellow3": "hsl(58, 96.9%, 87.3%)",
+        "yellow4": "hsl(51, 89.4%, 66.7%)",
+        "yellow5": "hsl(47, 80.9%, 61%)",
+        "yellow6": "hsl(40, 67.2%, 51%)",
+        "yellow7": "hsl(36, 71%, 42%)",
+        "yellow8": "hsl(32, 74.6%, 33.9%)",
+        "yellow9": "hsl(30, 75.8%, 25.9%)",
+
+        "green1": "hsl(136, 100%, 97.1%)",
+        "green2": "hsl(139, 72.7%, 87.1%)",
+        "green3": "hsl(141, 60.3%, 75.3%)",
+        "green4": "hsl(143, 54.9%, 61.8%)",
+        "green5": "hsl(145, 45.8%, 50.8%)",
+        "green6": "hsl(148, 48.4%, 42.5%)",
+        "green7": "hsl(150, 47.8%, 35.3%)",
+        "green8": "hsl(152, 45.1%, 27.8%)",
+        "green9": "hsl(152, 42.4%, 23.1%)",
+
+        "teal1": "hsl(168, 100%, 95.1%)",
+        "teal2": "hsl(170, 77%, 82.9%)",
+        "teal3": "hsl(172, 66.9%, 70.4%)",
+        "teal4": "hsl(174, 58.6%, 56.5%)",
+        "teal5": "hsl(177, 52.1%, 45.9%)",
+        "teal6": "hsl(179, 51%, 39.2%)",
+        "teal7": "hsl(181, 47.3%, 32.7%)",
+        "teal8": "hsl(183, 41.6%, 26.9%)",
+        "teal9": "hsl(185, 40.2%, 22.9%)",
+
+        "blue1": "hsl(201, 100%, 96.1%)",
+        "blue2": "hsl(202, 80.6%, 85.9%)",
+        "blue3": "hsl(203, 82%, 76.1%)",
+        "blue4": "hsl(205, 79.3%, 65.9%)",
+        "blue5": "hsl(207, 72.6%, 57.1%)",
+        "blue6": "hsl(209, 61.6%, 50%)",
+        "blue7": "hsl(211, 60.7%, 42.9%)",
+        "blue8": "hsl(213, 49.4%, 34.1%)",
+        "blue9": "hsl(215, 41.3%, 28%)",
+
+        "indigo1": "hsl(213, 100%, 96.1%)",
+        "indigo2": "hsl(217, 96.7%, 88%)",
+        "indigo3": "hsl(221, 89.7%, 81%)",
+        "indigo4": "hsl(225, 85.5%, 72.9%)",
+        "indigo5": "hsl(229, 75.9%, 65.9%)",
+        "indigo6": "hsl(234, 61.8%, 60%)",
+        "indigo7": "hsl(237, 47.3%, 52.4%)",
+        "indigo8": "hsl(242, 37.8%, 41%)",
+        "indigo9": "hsl(247, 32.9%, 31.6%)",
+
+        "purple1": "hsl(270, 100%, 98%)",
+        "purple2": "hsl(268, 90.2%, 92%)",
+        "purple3": "hsl(265, 86.1%, 85.9%)",
+        "purple4": "hsl(262, 81.4%, 76.9%)",
+        "purple5": "hsl(260, 72.7%, 69.8%)",
+        "purple6": "hsl(259, 59.4%, 59.4%)",
+        "purple7": "hsl(258, 49.8%, 51.6%)",
+        "purple8": "hsl(256, 43.9%, 42%)",
+        "purple9": "hsl(254, 41%, 33.9%)",
+
+        "pink1": "hsl(348, 100%, 98%)",
+        "pink2": "hsl(343, 95.1%, 92%)",
+        "pink3": "hsl(339, 89.6%, 84.9%)",
+        "pink4": "hsl(336, 86%, 74.7%)",
+        "pink5": "hsl(331, 79.2%, 66.1%)",
+        "pink6": "hsl(329, 64.1%, 54.1%)",
+        "pink7": "hsl(325, 57.3%, 45.9%)",
+        "pink8": "hsl(322, 59.8%, 37.1%)",
+        "pink9": "hsl(318, 51.4%, 29%)"
+    },
+    "globals":
+    {
+        "foreground": "var(gray7)",
+        "background": "var(white)",
+        "caret": "var(indigo4)",
+        "invisibles": "var(gray4)",
+        "line_highlight": "var(indigo2)",
+        "selection": "var(indigo2)",
+        "selection_border": "var(indigo4)",
+        "selection_border_width": "0",
+        "selection_corner_style": "round",
+        "selection_corner_radius": "4",
+        "highlight": "var(green4)",
+        "find_highlight": "var(green3)",
+        "find_highlight_foreground": "var(green8)",
+        "guide": "var(gray4)",
+        "active_guide": "var(gray6)",
+        "stack_guide": "var(gray6)",
+        "brackets_options": "bold",
+        "brackets_foreground": "var(gray7)",
+        "bracket_contents_options": "bold",
+        "bracket_contents_foreground": "var(gray7)",
+        "tags_options": "underline",
+        "tags_foreground": "var(gray7)"
+    },
+    "rules":
+    [
+
+        /**
+         *
+         * General
+         *
+         *
+         */
+
+        {
+            "name": "Comment",
+            "scope": "comment",
+            "foreground": "var(gray5)",
+            "font_style": "italic"
+        },
+        {
+            "name": "String",
+            "scope": "string",
+            "foreground": "var(green5)"
+        },
+        {
+            "name": "Number",
+            "scope": "constant.numeric",
+            "foreground": "var(purple4)"
+        },
+        {
+            "name": "Built-in constant",
+            "scope": "constant.language",
+            "foreground": "var(purple4)",
+            "font_style": "italic"
+        },
+        {
+            "name": "User-defined constant",
+            "scope": "constant.character, constant.other",
+            "foreground": "var(purple4)"
+        },
+        {
+            "name": "Variable",
+            "scope": "variable",
+            "foreground": "var(pink4)"
+        },
+        {
+            "name": "Keyword",
+            "scope": "keyword",
+            "foreground": "var(red4)",
+            "font_style": "italic"
+        },
+        {
+            "name": "Storage",
+            "scope": "storage",
+            "foreground": "var(indigo4)",
+            "font_style": "italic"
+        },
+        {
+            "name": "Storage type",
+            "scope": "storage.type",
+            "foreground": "var(blue4)",
+            "font_style": "italic"
+        },
+        {
+            "name": "Class name",
+            "scope": "entity.name.class",
+            "foreground": "var(blue4)",
+            "font_style": "italic"
+        },
+        {
+            "name": "Inherited class",
+            "scope": "entity.other.inherited-class",
+            "foreground": "var(blue4)",
+            "font_style": "italic"
+        },
+        {
+            "name": "Function name",
+            "scope": "entity.name.function",
+            "foreground": "var(teal4)"
+        },
+        {
+            "name": "Function argument",
+            "scope": "variable.parameter",
+            "foreground": "var(pink4)",
+        },
+        {
+            "name": "Tag name",
+            "scope": "entity.name.tag",
+            "foreground": "var(red4)"
+        },
+        {
+            "name": "Tag attribute",
+            "scope": "entity.other.attribute-name",
+            "foreground": "var(indigo4)"
+        },
+        {
+            "name": "Library function",
+            "scope": "support.function",
+            "foreground": "var(teal4)",
+            "font_style": "italic"
+        },
+        {
+            "name": "Library constant",
+            "scope": "support.constant",
+            "foreground": "var(teal4)",
+            "font_style": "italic"
+        },
+        {
+            "name": "Library class/type",
+            "scope": "support.type, support.class",
+            "foreground": "var(green4)",
+            "font_style": "italic"
+        },
+        {
+            "name": "Library variable",
+            "scope": "support.other.variable",
+            "foreground": "var(pink7)"
+        },
+        {
+            "name": "Invalid",
+            "scope": "invalid",
+            "foreground": "var(white)",
+            "background": "var(red4)"
+        },
+        {
+            "name": "Invalid deprecated",
+            "scope": "invalid.deprecated",
+            "foreground": "var(white)",
+            "background": "var(red3)"
+        },
+
+        /**
+         *
+         *  PHP
+         *
+         */
+        {
+            "name": "Arrows",
+            "scope": "punctuation.accessor.arrow.php, punctuation.definition.variable.php",
+            "foreground": "var(gray7)"
+        },
+
+
+        /**
+         *
+         * Git Diffs
+         *
+         */
+        {
+            "name": "Diff Line Added",
+            "scope": "line_diff_added",
+            "foreground": "var(green4)"
+        },
+        {
+            "name": "Diff Line Deleted",
+            "scope": "line_diff_deleted",
+            "foreground": "var(red4)"
+        },
+        {
+            "name": "Diff Line Deleted",
+            "scope": "line_diff_modified",
+            "foreground": "var(indigo4)"
+        }
+    ]
+}
